@@ -1,0 +1,21 @@
+/* write a program to read marks of student from keyboard and check whether the student is pass or fail (use simple if else statement).*/
+#include<stdio.h>
+
+int main()
+{
+    int marks;
+    printf("Enter marks of student: ");
+    scanf("%d",&marks);
+    if(marks >= 35)
+    {
+        printf("Student is pass\n");
+
+    }
+    else
+    {
+        printf("Student is fail");
+
+    }
+
+    return 0;
+}
